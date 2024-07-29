@@ -1,0 +1,68 @@
+*{margin: 0 auto;
+padding: 0 auto;}
+
+.container{width:85%;}
+
+.logo{height: 50px;
+    width: 60px;}
+
+.header-area{display:flex;
+       justify-content:  space-between;}
+    
+.menu ul{display: flex;}
+    
+.menu ul li{
+        margin: 20px;
+        list-style:none;}
+        
+.menu ul a{
+            text-decoration: none;}
+
+.banner-img h1{color:white;}
+
+.banner-img{background-image:url(image/Rectangle\ 27.jpg) ;
+                    background-size:cover;
+                    height :616px;
+                    text-align: center;
+                    background-repeat: no-repeat;}
+
+#about-the-principle{display: flex;
+        margin-bottom: 10px;}
+
+img{margin:5px;border: 3px solid white;border-radius: 10px; height: 470px;width: 450px;}
+ 
+.intro{height: 400px;width:628px;}
+ 
+.headline{font-weight: bold;
+            font-size: large;}
+ 
+.headline1{font-size: 35px;
+            font-family: 'Times New Roman', Times, serif}
+        
+button{border: none;
+            color: white;
+            text-align: center;
+            font-size: 23px;
+            margin: 9px 3px;
+            cursor: pointer;
+            background-color: rgba(11, 164, 11, 0.74);}
+        #another{display: flex;background-color: rgba(128, 128, 128, 0.256);}
+        .fillUp{text-align: center; width: 400px;}
+        input{ border: 1px; border-radius: 10px;width: 350px; height: 50px; background-color: rgba(174, 169, 229, 0.664);}
+        
+        .button1{border: none;
+            color: white;
+            padding: 13px 27px;
+            text-align: center;
+            font-size: 19px;
+            margin: 7px 2px;
+            cursor: pointer;
+            background-color: rgba(3, 87, 3, 0.812);}
+        .font{font-size: smaller;} 
+        .circle{display: flex;justify-content: space-evenly;}  
+        .circle img{ 
+        height: 120px;
+        width: 120px;}
+        .button2{ color: #000; background-color: white;border-style: groove;}
+        .finish{font-size: 120px; font-weight: bold;font-family: 'Times New Roman', Times, serif;
+        text-align: center;}
